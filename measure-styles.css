@@ -1,0 +1,11 @@
+.quiz-header {
+    background: #4C9A2A;
+    min-height: calc(50vh - 56px);
+}
+
+.quiz-text-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: calc(50vh - 56px);
+}
