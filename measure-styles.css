@@ -9,3 +9,29 @@
     width: 100%;
     height: calc(50vh - 56px);
 }
+
+.quiz-wrapper {
+    width: 80%;
+}
+
+.question-wrapper {
+    margin-top: 20px;
+}
+
+.form-check {
+    margin-left: 20px;
+}
+
+.question-text {
+    margin-bottom: 5px;
+}
+
+.quiz-wrapper .solid-blue-button {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 50px;
+}
+
+.quiz-section .modal-body {
+    padding: 20px;
+}
