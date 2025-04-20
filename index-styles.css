@@ -1,5 +1,5 @@
 .index-header {
-    background: #4C9A2A;
+    background: #6290C3;
     min-height: calc(100vh - 56px);
 }
 
@@ -32,6 +32,7 @@
 .stats-section {
     background-color: #DBD3C9;
     padding: 40px;
+    margin-top: -50px;
 }
 
 .stat-icon {
@@ -56,7 +57,8 @@
 
 .chatdrops-section {
     padding: 30px 0px;
-    background-color: #1A5E63;
+    background-color: #77B28C;
+    margin-top: -10px;
 }
 
 .chatdrops-section .title-text {
@@ -84,7 +86,7 @@
 }
 
 .pollution-section .text-col {
-    width: 65%;
+    width: 75%;
 }
 
 .pollution-section .img-col {
@@ -142,7 +144,9 @@
 
 .quiz-section {
     padding: 30px 0px;
-    background-color: #1A5E63;
+    background-color: #6290C3;
+    margin-top: -40px;
+    margin-bottom: -30px;
 }
 
 .quiz-section .title-text {
@@ -162,6 +166,7 @@
 
 .laws-section {
     padding: 30px 0px;
+    margin-top: -30px;
 }
 
 .laws-section .laws-container {
