@@ -64,6 +64,7 @@
 .chatdrops-section .title-text {
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .chatdrops-section .body-text {
@@ -77,7 +78,7 @@
 }
 
 .pollution-section {
-    padding-top: 30px;
+    padding-top: -30px;
 }
 
 .pollution-section .pollution-container {
@@ -139,7 +140,7 @@
 
 .other-issues-icon {
     font-size: 150px;
-    color: #1f5209;
+    color: #77B28C;
 }
 
 .quiz-section {
@@ -152,6 +153,7 @@
 .quiz-section .title-text {
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .quiz-section .body-text {
