@@ -1,0 +1,36 @@
+a:hover {
+    text-decoration: none;
+}
+
+.sources-header {
+    background: #6290C3;
+    min-height: calc(50vh - 56px);
+}
+
+.sources-text-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: calc(50vh - 56px);
+}
+
+.text-section .source {
+    margin-bottom: 25px;
+}
+
+.text-section .d-flex {
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.text-section .source-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.text-section .outline-blue-button {
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+

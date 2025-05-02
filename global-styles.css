@@ -77,12 +77,13 @@ button:focus {
 .outline-blue-button {
     background-color: #fff;
     border: 1px solid #0041A9;
-    color: #0041A9;
+    color: #0041A9 !important;
 }
 
 .outline-blue-button:hover {
     background-color: #0041A9;
-    color: #fff;
+    color: #fff !important;
+    cursor: pointer;
 }
 
 .outline-gold-button {

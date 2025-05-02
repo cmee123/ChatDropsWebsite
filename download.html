@@ -53,8 +53,80 @@
         </div></div>
     </nav>
 
-    <div class="container">
-        <h1 class="text-center">Make later when we figure out how to download</h1>
+    <div class="download-header">
+        <div class="container">
+            <div class="download-text-wrapper d-flex">
+                <h1>ChatDrops is the world's leading AI use regulation software.</h1>
+                <p>Here's how it works</p>
+                <div class="d-flex">
+                    <a href="https://chromewebstore.google.com/detail/chatdrops/mcepoloaighladjjaojeafmadkghbgao" target="_blank" class="solid-blue-button mx-auto">Download Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="spacer"></div>
+
+    <div class="intro-section">
+        <div class="container">
+            <div class="intro-container d-flex">
+                <div class="text-col my-auto">
+                    <p class="intro-title">ChatDrops</p>
+                    <p class="intro-body">ChatDrops is a Google Chrome extension that helps you measure the environmental impact of your AI usage: specifically on ChatGPT. The extension does this by tracking the amount of water your activities consume throughout the day and over time, measured in fluid ounces. To further contextualize this usage, ChatDrops calculates the number of waterbottles and hand washes that your water consumption is equal to. Every time you send a query to ChatGPT, ChatDrops will automatically calculate the impact of your actions and a popup in the corner will show the damage.</p>
+                    <p class="intro-body">Additionally, the UI "fills up" with water as you send more queries to ChatGPT. We recommend a maximum of 20 queries per day, and the water level indicates how close you are to reaching that limit.</p>
+                </div>
+                <div class="img-col d-flex">
+                    <img src="ChatDropsUI.png" alt="ChatDrops UI" class="mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    
+    <div class="download-section">
+        <div class="container">
+            <div class="download-container d-flex">
+                <div class="img-col d-flex">
+                    <img src="ChatDropsExample.png" alt="ChatDrops UI" class="mx-auto">
+                </div>
+                <div class="text-col my-auto">
+                    <p class="download-title">How To Download</p>
+                    <p class="download-body">Downloading ChatDrops is easy: it takes just 3 clicks. Click the button below to visit the Chrome Web Store. Then click "Add to chrome", accept the permissions, and you're all set!</p>
+                    <p class="download-body">And if you want to leave us a review on the Chrome Web Store, it would be greatly apprecieted.</p>
+                    <a href="https://chromewebstore.google.com/detail/chatdrops/mcepoloaighladjjaojeafmadkghbgao" target="_blank" class="solid-blue-button">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class="copyright-section">
+        <div class="container">
+            <p>Chatdrops would be copyrighted under 2.1 Literary Works through the expression of our work, through a Chrome extension. Our copyright for ChatDrops would most likely be breached through Section 17 of the Copyright, Designs, and Patents Act, which restricts the act of copying our work.</p>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="footer-section">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 mx-auto">
+                    <p class="footer-large-text">ChatDrops</p>
+                    <p class="footer-medium-text">World's leading AI software</p>
+                </div>
+                <div class="col-2 mx-auto">
+                    <p class="footer-small-text hoverable" onclick="goToDownload()">Download</p>
+                    <p class="footer-small-text hoverable" onclick="goToMeasure()">Measure</p>
+                    <p class="footer-small-text hoverable" onclick="goToSources()">Sources</p>
+                    <p class="footer-small-text hoverable" onclick="goToGithub()">Github</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -65,4 +137,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="global-js.js"></script>
   </body>
+
+  <script>
+    const goToDownload = () => {
+        location.href = "download.html"
+    }
+    const goToMeasure = () => {
+        location.href = "measure.html"
+    }
+    const goToSources = () => {
+        location.href = "sources.html"
+    }
+    const goToGithub = () => {
+        window.open("https://github.com/cmee123/ChatDropsWebsite", '_blank');
+    }
+  </script>
 </html>

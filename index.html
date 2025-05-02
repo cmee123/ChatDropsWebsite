@@ -85,7 +85,7 @@
                             <i class="bi-building-fill-exclamation stat-icon mx-auto"></i>     
                         </div>
                         <p class="large-stat-text text-center">1,050 Terawatts</p>
-                        <p class="small-stat-text text-center">Electricity consumed yearly by data centers, which is more than the enire country of Japan</p>
+                        <p class="small-stat-text text-center">Electricity consumed yearly by data centers, which is more than the entire country of Japan</p>
                     </div>
                 </div>
                 <div class="col-sm d-flex justify-content-center">
@@ -111,10 +111,10 @@
         <div class="spacer"></div>
         <div class="container">
             <p class="title-text">Curb your usage, save the earth</p>
-            <p class="body-text">Description of chatdrops. Also some copyright information Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo dignissimos earum eius neque perferendis veritatis mollitia deleniti laudantium et reiciendis praesentium voluptas explicabo, beatae numquam officia ex tenetur deserunt.</p>
+            <p class="body-text">Chatdrops is a Google Chrome extension that tracks user AI usage, focusing on the environmental impacts of personal AI usage. This web browser extension tracks your daily and lifetime AI usage in different terms of water usage: fluid ounces, water bottles, and the number of hand washes.</p>
             <div class="d-flex justify-content-center">
-                <div class="solid-blue-button" onclick="goToDownload()">Download</div>
-                <div class="solid-blue-button">Learn More</div>
+                <div class="solid-blue-button" onclick="goToChrome()">Download</div>
+                <div class="solid-blue-button" onclick="goToDownload()">Learn More</div>
             </div>
         </div>
     </div>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="text-col my-auto">
                     <p class="other-issues-title">Additional AI Impacts</p>
-                    <p class="other-issues-body">You don't pollute where you are, AI is integrated into everything, we know nothing, etc etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aspernatur exercitationem excepturi illo provident dolorem, doloribus atque, porro distinctio fuga quos. Atque quibusdam sequi molestias voluptate ipsum fugit eum odio.</p>
+                    <p class="other-issues-body">Unlike driving a car, AI’s environmental impacts aren’t as visible. With AI, you don’t pollute where you are. Data centers produce electronic waste, air pollution from power plants and backup generators, and toxic discharged water. More specifically, the electronic waste produced by data centers often contains hazardous substances, like mercury and lead. Due to this, AI will have the most significant environmental impact on areas with large data centers and regions experiencing drought or water stress.</p>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
     <div class="quiz-section">
         <div class="container">
             <p class="title-text">Measure your AI habits</p>
-            <p class="body-text">Take a quiz to gauge the impact of your current usage habits. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo dignissimos earum eius neque perferendis veritatis mollitia deleniti laudantium et reiciendis praesentium voluptas explicabo, beatae numquam officia ex tenetur deserunt.</p>
+            <p class="body-text">Take our quiz to gauge the impact of your current AI usage habits. Understanding our AI habits is important to learn how to fight AI's environmental impacts and reduce our AI usage.</p>
             <div class="d-flex justify-content-center">
                 <div class="solid-blue-button" onclick="goToMeasure()">Take Quiz</div>
             </div>
@@ -184,12 +184,14 @@
             <div class="laws-container d-flex">
                 <div class="text-col my-auto">
                     <p class="laws-title">Laws and Regulations</p>
-                    <p class="laws-body">Since AI is a new technology and rapidly expanding, there is minimal environmental AI laws and regulations. The most well known recent act is the Artificial Intelligence Environmental Imapcts Act of 2024.<br><br>This act accomplishes the following:
-                        <br>- Requires the Environmental Protection Agency (EPA) to carry out a comprehensive study on the environmental impacts of AI
-                        <br>- Recognizes that AI can be used for environmental benefits
-                        <br>- Mandates the establishment of a consortium of stakeholders to analyze both the positive and negative environmental impacts of AI
-                        <br>- Does not require companies to change their behavior or conduct an internal study on energy usage
-                        </p>
+
+                    <p>Since AI is a new technology and rapidly expanding, there is minimal environmental AI laws and regulations. The most well known recent act is the Artificial Intelligence Environmental Imapcts Act of 2024. This accomplishes the following: </p>
+                    <ul class="list-group">
+                        <li class="list-group-item">Requires the Environmental Protection Agency (EPA) to carry out a comprehensive study on the environmental impacts of AI</li>
+                        <li class="list-group-item">Recognizes that AI can be used for environmental benefits</li>
+                        <li class="list-group-item">Mandates the establishment of a consortium of stakeholders to analyze both the positive and negative environmental impacts of AI</li>
+                        <li class="list-group-item">Does not require companies to change their behavior or conduct an internal study on energy usage</li>
+                    </ul>
                 </div>
                 <div class="img-col d-flex my-auto">
                     <i class="bi-file-text laws-icon mx-auto"></i>
@@ -274,6 +276,9 @@
     }
     const goToGithub = () => {
         window.open("https://github.com/cmee123/ChatDropsWebsite", '_blank');
+    }
+    const goToChrome = () => {
+        window.open("https://chromewebstore.google.com/detail/chatdrops/mcepoloaighladjjaojeafmadkghbgao", '_blank');
     }
 
   </script>

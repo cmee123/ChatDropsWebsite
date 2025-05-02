@@ -1,0 +1,107 @@
+.download-header {
+    background: #6290C3;
+    min-height: calc(50vh - 56px);
+}
+
+.download-text-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: calc(50vh - 56px);
+}
+
+.download-header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.download-header p {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.download-header .solid-blue-button {
+    background-color: #fff;
+    color: #6290C3;
+    margin-top: 10px;
+}
+
+.download-header .solid-blue-button:hover {
+    background-color: #eaeaea;
+    color: #6290C3;
+}
+
+
+.intro-section .intro-container {
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.intro-section .text-col {
+    width: 60%;
+}
+
+.intro-section .img-col {
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+.intro-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #0041A9;
+}
+
+.intro-body {
+    font-size: 18px;
+}
+
+.intro-section img {
+    width: 60%;
+    height: auto;
+}
+
+.download-section .download-container {
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.download-section .text-col {
+    width: 50%;
+}
+
+.download-section .img-col {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.download-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #0041A9;
+}
+
+.download-body {
+    font-size: 18px;
+}
+
+.download-section img {
+    width: 80%;
+    height: auto;
+}
+
+.solid-blue-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright-section p {
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}

@@ -289,6 +289,23 @@
     <div class="spacer"></div>
     <div class="spacer"></div>
 
+    <div class="footer-section">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 mx-auto">
+                    <p class="footer-large-text">ChatDrops</p>
+                    <p class="footer-medium-text">World's leading AI software</p>
+                </div>
+                <div class="col-2 mx-auto">
+                    <p class="footer-small-text hoverable" onclick="goToDownload()">Download</p>
+                    <p class="footer-small-text hoverable" onclick="goToMeasure()">Measure</p>
+                    <p class="footer-small-text hoverable" onclick="goToSources()">Sources</p>
+                    <p class="footer-small-text hoverable" onclick="goToGithub()">Github</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
 
     <!-- Optional JavaScript -->
@@ -367,6 +384,18 @@ const pointValues = {
         $("#resultsModal").modal("show");
     }
 
+    const goToDownload = () => {
+        location.href = "download.html"
+    }
+    const goToMeasure = () => {
+        location.href = "measure.html"
+    }
+    const goToSources = () => {
+        location.href = "sources.html"
+    }
+    const goToGithub = () => {
+        window.open("https://github.com/cmee123/ChatDropsWebsite", '_blank');
+    }
 
   </script>
 
